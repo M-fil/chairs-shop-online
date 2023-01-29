@@ -1,4 +1,4 @@
-$social-link-size: 45px;
+$social-link-size: 4.5rem;
 $social-link-icon-size: 60%;
 
 .social-link {
@@ -6,7 +6,7 @@ $social-link-icon-size: 60%;
   justify-content: center;
   align-items: center;
   
-  border: 2px solid $primary1;
+  border: 0.2rem solid $primary1;
   border-radius: 50%;
 
   width: $social-link-size;

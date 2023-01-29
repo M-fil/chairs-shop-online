@@ -1,5 +1,5 @@
 $input-search-background: #EFEFEF;
-$input-search-height: 40px;
+$input-search-height: 4rem;
 
 .header {
   background: $primary2;
@@ -9,7 +9,7 @@ $input-search-height: 40px;
     align-items: center;
     justify-content: space-between;
 
-    padding: 20px 0;
+    padding: 2rem 0;
   }
 
   &__logo-block {
@@ -26,7 +26,7 @@ $input-search-height: 40px;
     letter-spacing: 0.1em;
 
     color: $primary1;
-    margin-left: 20px;
+    margin-left: 2rem;
   }
 
   &__search-block {
@@ -34,13 +34,13 @@ $input-search-height: 40px;
     align-items: center;
 
     background: $input-search-background;
-    border-radius: 40px;
-    padding: 0 20px;
+    border-radius: 4rem;
+    padding: 0 2rem;
     height: $input-search-height;
   }
 
   &__search-icon {
-    margin: 5px;
+    margin: 0.5rem;
   }
 
   &__search-input {

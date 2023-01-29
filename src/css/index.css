@@ -30,7 +30,7 @@ footer {
   display: flex;
   justify-content: space-between; }
   .products-layout > *:not(:last-child) {
-    margin-right: 30px; }
+    margin-right: 3rem; }
 
 .section-title {
   font-weight: bold;
@@ -45,30 +45,30 @@ footer {
     font-size: 1.6rem;
     line-height: 1.9rem;
     color: #000000;
-    margin-right: 40px; }
+    margin-right: 4rem; }
   .callback-block__callback-button {
     border-color: #F13C6E !important;
     background: #ffffff; }
 
 .default-button {
   cursor: pointer;
-  border-radius: 40px;
+  border-radius: 4rem;
   color: #000000;
   font-size: 1.4rem;
   line-height: 1.6rem;
-  padding: 12px 25px;
-  border: 2px solid; }
+  padding: 1.2rem 2.5rem;
+  border: 0.2rem solid; }
 
 .product-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px 30px;
+  padding: 2rem 3rem;
   background: #ffffff; }
   .product-card__img {
     width: 80%;
-    height: 165px;
+    height: 16.5rem;
     object-fit: contain; }
   .product-card__title {
     font-size: 1.4rem;
@@ -85,18 +85,18 @@ footer {
     color: #ffffff;
     border: none; }
   .product-card__img, .product-card__title, .product-card__price {
-    margin-bottom: 20px; }
+    margin-bottom: 2rem; }
 
 .info-block {
   display: flex;
   justify-content: space-between;
   color: #ffffff;
   background: #F13C6E;
-  padding: 35px 40px; }
+  padding: 3.5rem 4rem; }
   .info-block__main-block {
     display: flex;
     flex-direction: column;
-    margin-right: 25px; }
+    margin-right: 2.5rem; }
   .info-block__image-block {
     display: flex;
     justify-content: center;
@@ -111,41 +111,41 @@ footer {
     font-size: 1.4rem;
     line-height: 2rem; }
   .info-block__title, .info-block__subtitle {
-    margin-bottom: 25px; }
+    margin-bottom: 2.5rem; }
   .info-block__input {
-    border-radius: 30px;
+    border-radius: 3rem;
     background: #ffffff;
     color: #C4C4C4;
-    height: 35px;
-    padding: 0 25px;
+    height: 3.5rem;
+    padding: 0 2.5rem;
     border: none;
     outline: none;
-    max-width: 225px; }
+    max-width: 22.5rem; }
   .info-block__button {
     border-color: #ffffff;
     background: #F13C6E;
     color: #ffffff;
-    max-width: 170px; }
+    max-width: 17rem; }
 
 .sponsor-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 35px 60px;
+  padding: 3.5rem 6rem;
   background: #ffffff;
-  border: 0.5px solid #E5E5E5; }
+  border: 0.1rem solid #E5E5E5; }
   .sponsor-item__img {
-    width: 150px;
-    height: 50px; }
+    width: 15rem;
+    height: 5rem; }
 
 .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #F13C6E;
+  border: 0.2rem solid #F13C6E;
   border-radius: 50%;
-  width: 45px;
-  height: 45px; }
+  width: 4.5rem;
+  height: 4.5rem; }
   .social-link__icon {
     width: 60%;
     height: 60%; }
@@ -157,12 +157,12 @@ footer {
     line-height: 1.6rem;
     color: #333333; }
     .header-navigation__link:not(:last-child) {
-      margin-right: 30px; }
+      margin-right: 3rem; }
   .header-navigation__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 17px 0; }
+    padding: 1.7rem 0; }
 
 .header {
   background: #ffffff; }
@@ -170,7 +170,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0; }
+    padding: 2rem 0; }
   .header__logo-block {
     display: flex;
     align-items: center; }
@@ -180,16 +180,16 @@ footer {
     line-height: 4.2rem;
     letter-spacing: 0.1em;
     color: #F13C6E;
-    margin-left: 20px; }
+    margin-left: 2rem; }
   .header__search-block {
     display: flex;
     align-items: center;
     background: #EFEFEF;
-    border-radius: 40px;
-    padding: 0 20px;
-    height: 40px; }
+    border-radius: 4rem;
+    padding: 0 2rem;
+    height: 4rem; }
   .header__search-icon {
-    margin: 5px; }
+    margin: 0.5rem; }
   .header__search-input {
     background: none;
     outline: none;
@@ -198,17 +198,17 @@ footer {
 .special-products {
   background: #E5E5E5; }
   .special-products__wrapper {
-    padding-top: 80px;
-    padding-bottom: 100px; }
+    padding-top: 8rem;
+    padding-bottom: 10rem; }
   .special-products__title {
-    margin-bottom: 40px; }
+    margin-bottom: 4rem; }
 
 .recently-watched-products {
   background: #E5E5E5; }
   .recently-watched-products__wrapper {
-    padding: 80px 0; }
+    padding: 8rem 0; }
   .recently-watched-products__title {
-    margin-bottom: 40px; }
+    margin-bottom: 4rem; }
 
 .super-product {
   background-image: url(../assets/super-product/background.png);
@@ -217,7 +217,7 @@ footer {
   background-position: center;
   background-color: #F13C6E;
   color: #ffffff;
-  height: 750px; }
+  height: 75rem; }
   .super-product__wrapper {
     display: flex;
     flex-direction: column;
@@ -237,20 +237,20 @@ footer {
     background: transparent;
     border-color: #ffffff;
     color: #ffffff;
-    max-width: 170px; }
+    max-width: 17rem; }
   .super-product__title, .super-product__subtitle {
-    margin-bottom: 55px; }
+    margin-bottom: 5.5rem; }
 
 .info-blocks {
   background: #E5E5E5; }
   .info-blocks__wrapper {
     display: flex;
     justify-content: center;
-    padding-bottom: 100px; }
+    padding-bottom: 10rem; }
   .info-blocks__item {
     width: 45%; }
     .info-blocks__item:not(:last-child) {
-      margin-right: 30px; }
+      margin-right: 3rem; }
 
 .sponsors {
   background: #ffffff; }
@@ -268,7 +268,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 37px 0; }
+    padding: 3.7rem 0; }
   .footer__location-text {
     font-size: 1.4rem;
     line-height: 1.6rem; }
@@ -276,7 +276,7 @@ footer {
     display: flex;
     align-items: center; }
   .footer__social-link:not(:last-child) {
-    margin-right: 20px; }
+    margin-right: 2rem; }
 
 .copyright {
   background: #EFEFEF; }
@@ -284,7 +284,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0; }
+    padding: 3rem 0; }
   .copyright__text, .copyright__link {
     font-size: 1.2rem;
     line-height: 1.4rem;

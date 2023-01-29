@@ -1,5 +1,5 @@
 $product-card-image-width: 80%;
-$product-card-image-height: 165px;
+$product-card-image-height: 16.5rem;
 
 .product-card {
   display: flex;
@@ -7,7 +7,7 @@ $product-card-image-height: 165px;
   align-items: center;
 
   text-align: center;
-  padding: 20px 30px;
+  padding: 2rem 3rem;
   background: $primary2;
 
   &__img {
@@ -41,6 +41,6 @@ $product-card-image-height: 165px;
   &__img,
   &__title,
   &__price {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
 }

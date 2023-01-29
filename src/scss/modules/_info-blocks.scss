@@ -5,14 +5,14 @@
     display: flex;
     justify-content: center;
 
-    padding-bottom: 100px;
+    padding-bottom: 10rem;
   }
 
   &__item {
     width: 45%;
 
     &:not(:last-child) {
-      margin-right: 30px;
+      margin-right: 3rem;
     }
   }
 }
