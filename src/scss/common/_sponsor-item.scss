@@ -1,6 +1,3 @@
-$sponsor-item-width: 15rem;
-$sponsor-item-height: 5rem;
-
 .sponsor-item {
   display: flex;
   justify-content: center;
@@ -8,11 +5,11 @@ $sponsor-item-height: 5rem;
 
   padding: 3.5rem 6rem;
 
-  background: $primary2;
-  border: 0.1rem solid $primary3;
+  background-color: $primary2;
+  border: 0.05rem solid $primary3;
 
   &__img {
-    width: $sponsor-item-width;
-    height: $sponsor-item-height;
+    width: 80%;
+    object-fit: contain;
   }
 }

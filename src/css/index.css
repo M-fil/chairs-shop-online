@@ -132,11 +132,11 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 3.5rem 6rem;
-  background: #ffffff;
-  border: 0.1rem solid #E5E5E5; }
+  background-color: #ffffff;
+  border: 0.05rem solid #E5E5E5; }
   .sponsor-item__img {
-    width: 15rem;
-    height: 5rem; }
+    width: 80%;
+    object-fit: contain; }
 
 .social-link {
   display: flex;
@@ -253,7 +253,7 @@ footer {
       margin-right: 3rem; }
 
 .sponsors {
-  background: #ffffff; }
+  background: #E5E5E5; }
   .sponsors__wrapper {
     display: flex;
     flex-wrap: wrap; }
