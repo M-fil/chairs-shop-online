@@ -9,6 +9,8 @@
   }
 
   &__item {
+    width: 45%;
+
     &:not(:last-child) {
       margin-right: 30px;
     }

@@ -23,4 +23,13 @@ a {
   }
 }
 
-.wrapper {}
+section,
+header,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: $wrapper-width;
+}

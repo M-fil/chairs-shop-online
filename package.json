@@ -19,7 +19,7 @@
     "url": "https://github.com/M-fil/chairs-shop-online/issues"
   },
   "homepage": "https://github.com/M-fil/chairs-shop-online#readme",
-  "dependencies": {
-    "node-sass": "^6.0.1"
+  "devDependencies": {
+    "node-sass": "^8.0.0"
   }
 }

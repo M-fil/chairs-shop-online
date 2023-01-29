@@ -13,7 +13,7 @@ $info-block-input-height: 35px;
     display: flex;
     flex-direction: column;
 
-    margin-right: 65px;
+    margin-right: 25px;
   }
 
   &__image-block {
@@ -22,7 +22,9 @@ $info-block-input-height: 35px;
     align-items: center;
   }
 
-  &__image {}
+  &__image {
+    width: 90%;
+  }
 
   &__title {
     font-weight: bold;
