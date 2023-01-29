@@ -10,5 +10,10 @@
     width: 25%;
     max-width: 25%;
     box-sizing: border-box;
+
+    @include tablet {
+      width: 50%;
+      max-width: 50%;
+    }
   }
 }

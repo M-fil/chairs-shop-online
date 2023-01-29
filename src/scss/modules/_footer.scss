@@ -7,6 +7,20 @@
     align-items: center;
 
     padding: 3.7rem 0;
+
+    @include small-laptop {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+
+      padding: 2rem 0;
+    }
+  }
+
+  &__location-block {
+    @include small-laptop {
+      margin-bottom: 1.5rem;
+    }
   }
 
   &__location-text {
@@ -17,11 +31,23 @@
   &__social-links {
     display: flex;
     align-items: center;
+
+    @include small-laptop {
+      margin-bottom: 1.5rem;
+    }
   }
 
   &__social-link {
     &:not(:last-child) {
       margin-right: 2rem;
+    }
+  }
+
+  &__callback-block {
+    @include small-laptop {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

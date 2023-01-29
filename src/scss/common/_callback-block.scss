@@ -8,6 +8,10 @@
 
     color: $link-text-color;
     margin-right: 4rem;
+
+    @include laptop-l {
+      margin-right: 2rem;
+    }
   }
 
   &__callback-button {

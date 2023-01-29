@@ -2,7 +2,15 @@
   display: flex;
   justify-content: space-between;
 
+  @include small-laptop {
+    flex-wrap: wrap;
+  }
+
   & > *:not(:last-child) {
     margin-right: 3rem;
+
+    @include small-laptop {
+      margin-right: 0;
+    }
   }
 }

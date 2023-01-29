@@ -10,6 +10,17 @@ $copyright-text-color: #828282;
     align-items: center;
 
     padding: 3rem 0;
+
+    @include small-laptop {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+  &__text {
+    @include small-laptop {
+      margin-bottom: 1rem;
+    }
   }
 
   &__text,
@@ -18,5 +29,9 @@ $copyright-text-color: #828282;
     line-height: 1.4rem;
 
     color: $copyright-text-color;
+
+    @include small-laptop {
+      text-align: center;
+    }
   }
 }

@@ -17,5 +17,9 @@
     justify-content: center;
 
     padding: 1.7rem 0;
+
+    @include tablet {
+      flex-wrap: wrap;
+    }
   }
 }

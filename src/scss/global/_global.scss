@@ -2,6 +2,11 @@ html {
   font-size: 10px;
   line-height: 10px;
   color: $title-text-color;
+
+  @include tablet {
+    font-size: 8px;
+    line-height: 8px;
+  }
 }
 
 body {
@@ -32,4 +37,14 @@ footer {
 
 .wrapper {
   width: $wrapper-width;
+
+  @include laptop-l {
+    $wrapper-width: 80%;
+    width: $wrapper-width;
+  }
+
+  @include small-laptop {
+    $wrapper-width: 90%;
+    width: $wrapper-width;
+  }
 }

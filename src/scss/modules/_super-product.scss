@@ -9,10 +9,30 @@ $super-product-background-height: 75rem;
   color: $main-text-color;
   height: $super-product-background-height;
 
+  @include small-laptop {
+    $super-product-background-height: 60rem;
+    height: $super-product-background-height;
+  }
+
+  @include tablet {
+    $super-product-background-height: 50rem;
+    height: $super-product-background-height;
+  }
+
+  @include mobile-big {
+    $super-product-background-height: 40rem;
+    height: $super-product-background-height;
+    background-image: none;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @include mobile-big {
+      align-items: center;
+    }
   }
 
   &__main-info {
@@ -20,6 +40,11 @@ $super-product-background-height: 75rem;
     flex-direction: column;
 
     max-width: 35%;
+
+    @include mobile-big {
+      align-items: center;
+      max-width: 100%;
+    }
   }
 
   &__title {
@@ -44,5 +69,10 @@ $super-product-background-height: 75rem;
   &__title,
   &__subtitle {
     margin-bottom: 5.5rem;
+
+    @include mobile-big {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
   }
 }

@@ -6,13 +6,27 @@
     justify-content: center;
 
     padding-bottom: 10rem;
+
+    @include small-laptop {
+      flex-direction: column;
+    }
   }
 
   &__item {
     width: 45%;
 
+    @include small-laptop {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
     &:not(:last-child) {
       margin-right: 3rem;
+
+      @include small-laptop {
+        margin-right: 0;
+        margin-bottom: 2rem;
+      }
     }
   }
 }

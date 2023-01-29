@@ -8,8 +8,20 @@
   background-color: $primary2;
   border: 0.05rem solid $primary3;
 
+  @include tablet {
+    padding: 2rem;
+  }
+
   &__img {
     width: 80%;
     object-fit: contain;
+
+    @include small-laptop {
+      width: 100%;
+    }
+
+    @include tablet {
+      width: 50%;
+    }
   }
 }
